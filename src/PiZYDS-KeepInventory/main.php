@@ -1,5 +1,5 @@
 <?php
-namespace PiZYDS-KeepInventory;
+namespace main;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerDeathEvent;
