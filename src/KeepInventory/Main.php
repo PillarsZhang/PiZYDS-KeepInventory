@@ -17,5 +17,5 @@ public function onDisable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);}
 
 public function PlayerDeath(PlayerDeathEvent $event){
-    $event->setKeepInventory(true);
+    $event->setKeepInventory(true);}
 }
