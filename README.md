@@ -6,4 +6,5 @@
 
 <p>Develop by PillarsZhang</p>
 <p>Welcome to visit my website at http://www.pizyds.com/</p>
-<p>Enojy you MC World</p>
+
+<p>Enjoy you MC World</p>
