@@ -3,8 +3,9 @@ namespace PiZYDS-KeepInventory;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerDeathEvent;
+use pocketmine\event\Listener;
 
-class PiZYDS-KeepInventory extends PluginBase{
+class Main extends PluginBase implements Listener{
 public function onEnable(){
     $this->getServer()->getLogger()->info(C::GREEN."PiZYDS-KeepInventory by PillarsZhang.");
     $this->setKeepInventory(true);
