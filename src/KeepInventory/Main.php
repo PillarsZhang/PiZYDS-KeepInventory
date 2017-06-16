@@ -10,12 +10,12 @@ use pocketmine\utils\server;
 class Main extends PluginBase implements Listener{
 public function onEnable(){
     $this->getServer()->getLogger()->info(C::GREEN."PiZYDS-KeepInventory by PillarsZhang.");
-    $event->setKeepInventory(true);
     $this->getServer()->getPluginManager()->registerEvents($this, $this);}
   
 public function onDisable(){
     $this->getLogger()->info(C::RED . "PiZYDS-KeepInventory have been disabled.");
-    $event->setKeepInventory(false);
     $this->getServer()->getPluginManager()->registerEvents($this, $this);}
 
+public function PlayerDeath(PlayerDeathEvent $event){
+    $event->setKeepInventory(true);
 }
